@@ -1,5 +1,15 @@
 * {box-sizing:border-box}
 
+#logo {
+  margin-top:0;
+}
+
+#logo_cont {
+  margin-top:10px;
+  margin-left:20px;
+  float:left;
+}
+
 #top {
   width:100%;
   top:0;
