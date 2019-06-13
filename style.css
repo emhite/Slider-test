@@ -1,5 +1,43 @@
 * {box-sizing:border-box}
 
+.write{
+  margin:0 auto;
+  line-height:70px;
+  font-family: Candara,Calibri,Segoe,"Segoe UI",Optima,Arial,sans-serif;
+  font-weight:bold;
+}
+
+ul {
+    list-style-type: none;
+    padding:0;
+    height:70px;
+    overflow: hidden;
+    background-color:#202020;
+    float:right;
+    width:80%;
+    margin-top:0;
+    margin-right:10px;
+}
+
+li {
+    float:right;
+}
+
+li a {
+    display:block;
+    font-size:18px;
+    text-align: center;
+    padding-left:15px;
+    padding-right:15px;
+    height:70px;
+    text-decoration:none;
+    color:white;
+}
+
+ul li a:hover {
+    color:gray;
+}
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 100%;
