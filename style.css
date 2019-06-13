@@ -1,5 +1,22 @@
 * {box-sizing:border-box}
 
+#top {
+  width:100%;
+  top:0;
+  background-color:#202020;
+  position:fixed;
+  z-index:1; 
+  height:70px;
+  opacity:.9;
+}
+
+top:scroll {
+   opacity:1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
 .write{
   margin:0 auto;
   line-height:70px;
